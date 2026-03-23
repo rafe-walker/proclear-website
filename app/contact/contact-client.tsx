@@ -172,7 +172,7 @@ export default function ContactClient() {
                 </p>
 
                 <form
-                  action="https://formspree.io/f/placeholder"
+                  action="https://formspree.io/f/xojkopjv"
                   method="POST"
                   onSubmit={handleSubmit}
                   className="space-y-6"
