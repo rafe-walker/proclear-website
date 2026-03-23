@@ -123,7 +123,7 @@ const posts: BlogPost[] = [
       <h2>Our Commitment</h2>
       <p>As we grow, our commitment to quality remains unchanged. Every ProClear Solutions crew member is trained to our standards, every job is photo-documented, and every client receives the same responsive, professional service that has been our foundation from day one.</p>
 
-      <p>We are bonded, insured, and ready to handle your next project. Contact us today at contact@proclearsolutionsaz.com or call (520) 402-5877 for a free quote.</p>
+      <p>We are bonded, insured, and ready to handle your next project. Contact us today at contact@proclearsolutionsaz.com or call (520) 729-2974 for a free quote.</p>
     `,
   },
 ];

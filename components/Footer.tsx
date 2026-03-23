@@ -49,9 +49,9 @@ export default function Footer() {
               ready to handle your property turnover.
             </p>
             <div className="space-y-3">
-              <a href="tel:+15204025877" className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors">
+              <a href="tel:+15207292974" className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors">
                 <Phone className="w-4 h-4 text-brand-orange" />
-                (520) 402-5877
+                (520) 729-2974
               </a>
               <a href="mailto:contact@proclearsolutionsaz.com" className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors">
                 <Mail className="w-4 h-4 text-brand-orange" />

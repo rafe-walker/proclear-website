@@ -65,7 +65,7 @@ export default function Hero() {
                 Get Free Quote
               </Link>
               <a
-                href="tel:+15204025877"
+                href="tel:+15207292974"
                 className="inline-flex items-center gap-2 px-8 py-3 bg-white/10 backdrop-blur-sm border border-white/30 text-white font-semibold rounded-lg hover:bg-white/20 transition-all"
               >
                 <Phone className="w-5 h-5" />
