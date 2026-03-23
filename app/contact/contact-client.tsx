@@ -69,10 +69,10 @@ export default function ContactClient() {
                   <div>
                     <h3 className="font-bold text-brand-navy mb-2">Phone</h3>
                     <a
-                      href="tel:+15205551234"
+                      href="tel:+15204025877"
                       className="text-brand-blue hover:text-brand-blue-light font-semibold"
                     >
-                      (520) 555-1234
+                      (520) 402-5877
                     </a>
                   </div>
                 </div>
@@ -230,7 +230,7 @@ export default function ContactClient() {
                         name="phone"
                         required
                         className="w-full px-4 py-3 border border-brand-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-blue focus:border-transparent"
-                        placeholder="(520) 555-1234"
+                        placeholder="(520) 402-5877"
                       />
                     </div>
 

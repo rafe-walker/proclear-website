@@ -67,11 +67,11 @@ export default function Navigation() {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+15205551234"
+              href="tel:+15204025877"
               className="flex items-center gap-2 text-sm font-semibold text-brand-navy"
             >
               <Phone className="w-4 h-4" />
-              (520) 555-1234
+              (520) 402-5877
             </a>
             <Link
               href="/contact"
@@ -113,11 +113,11 @@ export default function Navigation() {
                 </Link>
               ))}
               <a
-                href="tel:+15205551234"
+                href="tel:+15204025877"
                 className="flex items-center gap-2 px-4 py-3 text-sm font-semibold text-brand-navy"
               >
                 <Phone className="w-4 h-4" />
-                (520) 555-1234
+                (520) 402-5877
               </a>
               <Link
                 href="/contact"

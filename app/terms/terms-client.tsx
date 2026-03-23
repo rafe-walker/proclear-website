@@ -251,10 +251,10 @@ The specific scope of work will be defined in the service agreement or quote pro
               <div>
                 <p className="text-sm font-semibold text-brand-navy">Phone</p>
                 <a
-                  href="tel:+15205551234"
+                  href="tel:+15204025877"
                   className="text-brand-blue hover:text-brand-blue-light"
                 >
-                  (520) 555-1234
+                  (520) 402-5877
                 </a>
               </div>
               <div>

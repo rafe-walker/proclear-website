@@ -37,11 +37,11 @@ export default function CTA() {
               <ArrowRight className="w-5 h-5" />
             </Link>
             <a
-              href="tel:+15205551234"
+              href="tel:+15204025877"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/30 text-white font-bold rounded-xl text-lg hover:bg-white/20 transition-all"
             >
               <Phone className="w-5 h-5" />
-              (520) 555-1234
+              (520) 402-5877
             </a>
           </div>
         </motion.div>
