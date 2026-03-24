@@ -1,12 +1,18 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowRight, ArrowLeft, CheckCircle, Phone } from 'lucide-react';
+import {
+  ArrowRight, ArrowLeft, CheckCircle, Phone,
+  Trash2, Truck, Trees, Lock, Wrench, Clipboard, Paintbrush, Snowflake
+} from 'lucide-react';
 import Link from 'next/link';
-import type { LucideIcon } from 'lucide-react';
+
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
+  Trash2, Truck, Trees, Lock, Wrench, Clipboard, Paintbrush, Snowflake,
+};
 
 interface ServicePageLayoutProps {
-  icon: LucideIcon;
+  iconName: string;
   title: string;
   subtitle: string;
   overview: string;
@@ -18,7 +24,7 @@ interface ServicePageLayoutProps {
 }
 
 export default function ServicePageLayout({
-  icon: Icon,
+  iconName,
   title,
   subtitle,
   overview,
@@ -28,6 +34,7 @@ export default function ServicePageLayout({
   equipment,
   idealFor,
 }: ServicePageLayoutProps) {
+  const Icon = iconMap[iconName] || Wrench;
   return (
     <>
       {/* Hero */}
