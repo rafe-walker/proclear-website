@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Lock } from 'lucide-react';
 import ServicePageLayout from '@/components/ServicePageLayout';
 
 export const metadata: Metadata = {
@@ -10,7 +9,7 @@ export const metadata: Metadata = {
 export default function LockChangesPage() {
   return (
     <ServicePageLayout
-      icon={Lock}
+      iconName="Lock"
       title="Lock Changes & Securing"
       subtitle="Protecting vacant properties with professional lock changes and security measures."
       overview="Vacant properties are targets for unauthorized entry, vandalism, and theft. Our lock change and securing services ensure that every access point is properly secured to meet lender requirements and protect your investment. We handle deadbolt installations, re-keys, padlocking, window securing, and board-up services. Our technicians respond quickly and carry a full inventory of hardware to complete most jobs in a single visit."
