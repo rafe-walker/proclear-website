@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Truck } from 'lucide-react';
 import ServicePageLayout from '@/components/ServicePageLayout';
 
 export const metadata: Metadata = {
@@ -10,7 +9,7 @@ export const metadata: Metadata = {
 export default function TrashOutServicesPage() {
   return (
     <ServicePageLayout
-      icon={Truck}
+      iconName="Truck"
       title="Trash-Out Services"
       subtitle="Professional junk removal and waste hauling for REO and vacant properties."
       overview="Trash-out services go beyond a standard cleanout. When properties accumulate large volumes of garbage, bulk waste, or hazardous materials, our trash-out crews step in with the equipment and expertise to handle it all. We coordinate debris box rentals, manage compliant disposal of hazardous materials, and ensure every item is removed efficiently. Whether it is a single unit or a multi-property portfolio, we deliver fast, reliable results."
