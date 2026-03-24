@@ -18,6 +18,7 @@ const services = [
   {
     id: 1,
     title: 'Foreclosure Cleanouts',
+    href: '/services/foreclosure-cleanouts',
     icon: Trash2,
     description:
       'Complete removal of all personal property, debris, and refuse from foreclosed properties. We handle everything from appliances to construction waste, leaving your property broom-clean and ready for resale.',
@@ -33,6 +34,7 @@ const services = [
   {
     id: 2,
     title: 'Trash-Out Services',
+    href: '/services/trash-out-services',
     icon: Trash2,
     description:
       'Professional removal of discarded items, garbage, and unwanted materials. Perfect for preparing properties for marketing or occupancy.',
@@ -48,6 +50,7 @@ const services = [
   {
     id: 3,
     title: 'Yard & Landscape Maintenance',
+    href: '/services/yard-maintenance',
     icon: Scissors,
     description:
       'Comprehensive outdoor maintenance to enhance curb appeal and property value. From lawn care to landscaping improvements.',
@@ -63,6 +66,7 @@ const services = [
   {
     id: 4,
     title: 'Lock Changes & Securing',
+    href: '/services/lock-changes',
     icon: Lock,
     description:
       'Professional lock changes and property securing services to maintain security and prevent unauthorized access. Quick response times.',
@@ -78,6 +82,7 @@ const services = [
   {
     id: 5,
     title: 'Handyman & Repairs',
+    href: '/services/handyman-repairs',
     icon: Wrench,
     description:
       'General maintenance and repairs to bring properties into rentable or saleable condition. Licensed and skilled technicians.',
@@ -93,6 +98,7 @@ const services = [
   {
     id: 6,
     title: 'Property Inspections',
+    href: '/services/property-inspections',
     icon: Clipboard,
     description:
       'Detailed property assessments to identify condition issues, damage, and maintenance needs before listing or occupancy.',
@@ -108,6 +114,7 @@ const services = [
   {
     id: 7,
     title: 'Paint & Touch-Ups',
+    href: '/services/paint-touch-ups',
     icon: Brush,
     description:
       'Professional interior and exterior painting to refresh property appearance and increase marketability. Quality finishes.',
@@ -123,6 +130,7 @@ const services = [
   {
     id: 8,
     title: 'Winterization & De-Winterization',
+    href: '/services/winterization',
     icon: Snowflake,
     description:
       'Seasonal property preparation and restoration. Winterization protects from cold damage; de-winterization readies properties for occupancy.',
@@ -220,6 +228,13 @@ export default function ServicesClient() {
                       </li>
                     ))}
                   </ul>
+
+                  <Link
+                    href={service.href}
+                    className="inline-flex items-center gap-2 text-brand-blue font-semibold hover:gap-3 transition-all text-sm"
+                  >
+                    Learn More <ArrowRight className="w-4 h-4" />
+                  </Link>
                 </motion.div>
               );
             })}
@@ -287,12 +302,12 @@ export default function ServicesClient() {
                 className="text-center p-6"
               >
                 <div className="text-3xl mb-3">
-                  {idx === 0 && '✓'}
-                  {idx === 1 && '🏜️'}
-                  {idx === 2 && '⚡'}
-                  {idx === 3 && '👥'}
-                  {idx === 4 && '💰'}
-                  {idx === 5 && '📸'}
+                  {idx === 0 && 'â'}
+                  {idx === 1 && 'ðï¸'}
+                  {idx === 2 && 'â¡'}
+                  {idx === 3 && 'ð¥'}
+                  {idx === 4 && 'ð°'}
+                  {idx === 5 && 'ð¸'}
                 </div>
                 <h3 className="text-lg font-bold text-brand-navy mb-2">
                   {item.title}
