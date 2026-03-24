@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Snowflake } from 'lucide-react';
 import ServicePageLayout from '@/components/ServicePageLayout';
 
 export const metadata: Metadata = {
@@ -10,7 +9,7 @@ export const metadata: Metadata = {
 export default function WinterizationPage() {
   return (
     <ServicePageLayout
-      icon={Snowflake}
+      iconName="Snowflake"
       title="Winterization & De-Winterization"
       subtitle="Seasonal property protection and system reactivation for vacant properties."
       overview="Even in Arizona, vacant properties need seasonal preparation to prevent costly damage to plumbing, HVAC, and water systems. Our winterization services protect pipes, fixtures, and appliances from freezing and deterioration during vacancy. When a property is ready for occupancy or sale, our de-winterization crews reactivate all systems, test for leaks, and confirm everything is operational. We follow industry-standard procedures that meet servicer and lender requirements."
