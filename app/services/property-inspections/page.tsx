@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Clipboard } from 'lucide-react';
 import ServicePageLayout from '@/components/ServicePageLayout';
 
 export const metadata: Metadata = {
@@ -10,7 +9,7 @@ export const metadata: Metadata = {
 export default function PropertyInspectionsPage() {
   return (
     <ServicePageLayout
-      icon={Clipboard}
+      iconName="Clipboard"
       title="Property Inspections"
       subtitle="Thorough, photo-documented inspections for informed property decisions."
       overview="Knowing the true condition of a property is essential before making decisions about listing, repairs, or occupancy. Our inspection team conducts detailed walkthroughs with comprehensive photo and video documentation, reporting on property condition, occupancy status, maintenance needs, and potential code violations. Reports are formatted to meet servicer and asset manager standards and delivered within your required timeline."
