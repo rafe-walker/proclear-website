@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Wrench } from 'lucide-react';
 import ServicePageLayout from '@/components/ServicePageLayout';
 
 export const metadata: Metadata = {
@@ -10,7 +9,7 @@ export const metadata: Metadata = {
 export default function HandymanRepairsPage() {
   return (
     <ServicePageLayout
-      icon={Wrench}
+      iconName="Wrench"
       title="Handyman & Repairs"
       subtitle="Skilled maintenance and repair work to get properties market-ready."
       overview="From minor plumbing leaks to drywall patches and fixture replacements, our handyman crews handle the repairs that bring properties up to code and make them presentable for buyers and tenants. We focus on cost-effective solutions that address inspection punch lists, code violations, and cosmetic issues without over-spending. Our technicians are experienced with REO property standards and know what servicers and agents expect."
