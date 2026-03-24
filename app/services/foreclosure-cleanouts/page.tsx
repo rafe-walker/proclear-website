@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Trash2 } from 'lucide-react';
 import ServicePageLayout from '@/components/ServicePageLayout';
 
 export const metadata: Metadata = {
@@ -10,10 +9,10 @@ export const metadata: Metadata = {
 export default function ForeclosureCleanoutsPage() {
   return (
     <ServicePageLayout
-      icon={Trash2}
+      iconName="Trash2"
       title="Foreclosure Cleanouts"
       subtitle="Complete property clearing for REO and foreclosure properties across Arizona."
-      overview="When a property goes through foreclosure, it often comes with a full house of abandoned belongings, trash, and debris. Our foreclosure cleanout crews handle everything from start to finish — removing all personal property, appliances, furniture, and waste so the unit is broom-clean and ready for listing. We work with asset managers, servicers, and real estate agents to meet tight turnaround deadlines and HUD compliance standards."
+      overview="When a property goes through foreclosure, it often comes with a full house of abandoned belongings, trash, and debris. Our foreclosure cleanout crews handle everything from start to finish â removing all personal property, appliances, furniture, and waste so the unit is broom-clean and ready for listing. We work with asset managers, servicers, and real estate agents to meet tight turnaround deadlines and HUD compliance standards."
       features={[
         { title: 'Full Contents Removal', description: 'We remove all personal belongings, furniture, appliances, and abandoned items from every room, garage, and storage area.' },
         { title: 'Debris & Junk Hauling', description: 'Construction waste, yard debris, and general refuse are hauled away and disposed of at licensed facilities.' },
@@ -24,7 +23,7 @@ export default function ForeclosureCleanoutsPage() {
       ]}
       process={[
         { step: 'Assessment', description: 'We walk the property and provide a detailed scope of work and quote within 24 hours.' },
-        { step: 'Scheduling', description: 'Jobs are scheduled around your timeline — standard or rush turnaround available.' },
+        { step: 'Scheduling', description: 'Jobs are scheduled around your timeline â standard or rush turnaround available.' },
         { step: 'Cleanout', description: 'Our crew removes all contents, debris, and waste. We sort, haul, donate, and recycle.' },
         { step: 'Final Walkthrough', description: 'A supervisor inspects the property to confirm broom-clean condition and submits photo documentation.' },
       ]}
