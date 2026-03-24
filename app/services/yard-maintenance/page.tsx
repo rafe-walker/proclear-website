@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Trees } from 'lucide-react';
 import ServicePageLayout from '@/components/ServicePageLayout';
 
 export const metadata: Metadata = {
@@ -10,7 +9,7 @@ export const metadata: Metadata = {
 export default function YardMaintenancePage() {
   return (
     <ServicePageLayout
-      icon={Trees}
+      iconName="Trees"
       title="Yard & Landscape Maintenance"
       subtitle="Restoring curb appeal to neglected properties across Arizona."
       overview="In the Arizona heat, yards can go from presentable to overgrown in weeks. Our landscape maintenance crews handle everything from routine mowing and edging to full overgrowth clearing and desert landscaping cleanup. We bring curb appeal back to neglected properties so they make a strong first impression for buyers, inspectors, and neighbors. Regular maintenance plans are available for portfolio clients managing multiple vacant properties."
