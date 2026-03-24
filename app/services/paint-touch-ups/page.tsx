@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Paintbrush } from 'lucide-react';
 import ServicePageLayout from '@/components/ServicePageLayout';
 
 export const metadata: Metadata = {
@@ -10,7 +9,7 @@ export const metadata: Metadata = {
 export default function PaintTouchUpsPage() {
   return (
     <ServicePageLayout
-      icon={Paintbrush}
+      iconName="Paintbrush"
       title="Paint & Touch-Ups"
       subtitle="Professional painting that maximizes property appeal and market value."
       overview="Fresh paint is one of the most cost-effective ways to transform a property and increase its market appeal. Our painting crews handle everything from spot touch-ups and wall patching to full interior and exterior repaints. We use quality materials, maintain clean work areas, and deliver smooth, professional finishes. Whether you need to cover scuff marks before a showing or repaint an entire home for resale, we have the skills and efficiency to get it done right."
