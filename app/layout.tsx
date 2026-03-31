@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   alternates: {
-    canonical: "https://proclearsolutionsaz.com",
+    canonical: "/",
   },
 };
 
