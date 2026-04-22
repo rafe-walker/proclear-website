@@ -2,3 +2,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://proclearsolutionsaz.com/sitemap.xml
+
+# LLM Context
+LLMs-Txt: https://proclearsolutionsaz.com/llms.txt
+LLMs-Full-Txt: https://proclearsolutionsaz.com/llms-full.txt
