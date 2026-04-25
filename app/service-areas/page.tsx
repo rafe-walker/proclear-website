@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "Arizona service coverage",
     "property preservation Arizona cities",
   ],
+  alternates: {
+    canonical: '/service-areas',
+  },
 };
 
 export default function ServiceAreasPage() {

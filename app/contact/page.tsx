@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "customer service",
     "Arizona phone number",
   ],
+  alternates: {
+    canonical: '/contact',
+  },
 };
 
 export default function ContactPage() {

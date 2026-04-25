@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     "property management",
     "Stormhaven Enterprises",
   ],
+  alternates: {
+    canonical: '/about',
+  },
 };
 
 export default function AboutPage() {

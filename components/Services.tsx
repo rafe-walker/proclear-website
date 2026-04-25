@@ -18,7 +18,7 @@ const services = [
     icon: Truck,
     title: 'Trash-Out Services',
     href: '/services/trash-out-services',
-    description: 'Full junk removal and haul-away for REO properties. We handle bulk items, appliances, furniture, and general waste â donating reusable items whenever possible.',
+    description: 'Full junk removal and haul-away for REO properties. We handle bulk items, appliances, furniture, and general waste — donating reusable items whenever possible.',
     color: 'bg-orange-50 text-orange-600',
   },
   {
@@ -81,7 +81,7 @@ export default function Services() {
           </h2>
           <p className="text-lg text-brand-gray-500 max-w-2xl mx-auto">
             From initial cleanout to final turnover, we handle every step of preparing
-            your property for market â quickly, professionally, and at competitive rates.
+            your property for market — quickly, professionally, and at competitive rates.
           </p>
         </motion.div>
 

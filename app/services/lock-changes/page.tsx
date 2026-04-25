@@ -4,6 +4,9 @@ import ServicePageLayout from '@/components/ServicePageLayout';
 export const metadata: Metadata = {
   title: 'Lock Changes & Securing | ProClear Solutions',
   description: 'Professional lock change and property securing services in Arizona. Deadbolt installs, re-keys, padlocks, and full property securing for vacant properties.',
+  alternates: {
+    canonical: '/services/lock-changes',
+  },
 };
 
 export default function LockChangesPage() {

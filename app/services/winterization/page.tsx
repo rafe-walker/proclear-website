@@ -4,6 +4,9 @@ import ServicePageLayout from '@/components/ServicePageLayout';
 export const metadata: Metadata = {
   title: 'Winterization & De-Winterization | ProClear Solutions',
   description: 'Professional winterization and de-winterization services for vacant properties in Arizona. Protect plumbing and HVAC systems from damage during vacancy.',
+  alternates: {
+    canonical: '/services/winterization',
+  },
 };
 
 export default function WinterizationPage() {

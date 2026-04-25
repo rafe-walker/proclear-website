@@ -4,6 +4,9 @@ import ServicePageLayout from '@/components/ServicePageLayout';
 export const metadata: Metadata = {
   title: 'Handyman & Repairs | ProClear Solutions',
   description: 'Professional handyman and repair services for vacant and REO properties in Arizona. Plumbing, drywall, fixtures, and general maintenance.',
+  alternates: {
+    canonical: '/services/handyman-repairs',
+  },
 };
 
 export default function HandymanRepairsPage() {

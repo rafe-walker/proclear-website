@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     "painting services",
     "winterization",
   ],
+  alternates: {
+    canonical: '/services',
+  },
 };
 
 export default function ServicesPage() {

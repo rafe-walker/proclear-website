@@ -4,6 +4,9 @@ import ServicePageLayout from '@/components/ServicePageLayout';
 export const metadata: Metadata = {
   title: 'Property Inspections | ProClear Solutions',
   description: 'Detailed property inspection services in Arizona. Photo-documented condition reports for asset managers, servicers, and real estate professionals.',
+  alternates: {
+    canonical: '/services/property-inspections',
+  },
 };
 
 export default function PropertyInspectionsPage() {

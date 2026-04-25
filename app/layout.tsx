@@ -4,6 +4,79 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://proclearsolutionsaz.com/#localbusiness",
+      name: "ProClear Solutions AZ",
+      legalName: "StormHaven Enterprises LLC",
+      url: "https://proclearsolutionsaz.com",
+      email: "hello@proclearsolutionsaz.com",
+      telephone: "+15207292974",
+      description:
+        "Professional property preservation and cleanout services in Southern Arizona. Foreclosure cleanouts, trash-out services, yard maintenance, lock changes, handyman repairs, property inspections, paint touch-ups, and winterization.",
+      logo: "https://proclearsolutionsaz.com/favicon.ico",
+      image: "https://proclearsolutionsaz.com/og-image.svg",
+      priceRange: "$$",
+      areaServed: [
+        { "@type": "AdministrativeArea", name: "Cochise County, Arizona" },
+        { "@type": "AdministrativeArea", name: "Santa Cruz County, Arizona" },
+        { "@type": "AdministrativeArea", name: "Pima County, Arizona" },
+        { "@type": "State", name: "Arizona" },
+      ],
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Tucson",
+        addressRegion: "AZ",
+        addressCountry: "US",
+      },
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: "Property Preservation Services",
+        itemListElement: [
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Foreclosure Cleanouts", url: "https://proclearsolutionsaz.com/services/foreclosure-cleanouts" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Trash-Out Services", url: "https://proclearsolutionsaz.com/services/trash-out-services" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Yard Maintenance", url: "https://proclearsolutionsaz.com/services/yard-maintenance" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Lock Changes", url: "https://proclearsolutionsaz.com/services/lock-changes" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Handyman Repairs", url: "https://proclearsolutionsaz.com/services/handyman-repairs" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Property Inspections", url: "https://proclearsolutionsaz.com/services/property-inspections" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Paint Touch-Ups", url: "https://proclearsolutionsaz.com/services/paint-touch-ups" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Winterization", url: "https://proclearsolutionsaz.com/services/winterization" } },
+        ],
+      },
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://proclearsolutionsaz.com/#organization",
+      name: "ProClear Solutions AZ",
+      legalName: "StormHaven Enterprises LLC",
+      url: "https://proclearsolutionsaz.com",
+      email: "hello@proclearsolutionsaz.com",
+      logo: "https://proclearsolutionsaz.com/favicon.ico",
+      sameAs: ["https://proclearsolutionsaz.com"],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://proclearsolutionsaz.com/#website",
+      url: "https://proclearsolutionsaz.com",
+      name: "ProClear Solutions AZ",
+      description:
+        "Professional property preservation and cleanout services in Southern Arizona.",
+      publisher: { "@id": "https://proclearsolutionsaz.com/#organization" },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: "https://proclearsolutionsaz.com/blog?q={search_term_string}",
+        },
+        "query-input": "required name=search_term_string",
+      },
+    },
+  ],
+};
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -46,7 +119,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.svg",
         width: 1200,
         height: 630,
         alt: "ProClear Solutions — Property Preservation You Can Count On",
@@ -58,7 +131,7 @@ export const metadata: Metadata = {
     title: "ProClear Solutions | Foreclosure Cleanouts & Property Preservation",
     description:
       "Arizona's trusted property preservation company. Bonded & insured.",
-    images: ["/og-image.png"],
+    images: ["/og-image.svg"],
   },
   robots: {
     index: true,
@@ -96,6 +169,12 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} scroll-smooth`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-screen flex flex-col bg-brand-white text-brand-gray-800 font-sans antialiased">
         <Navigation />
         <main className="flex-1">{children}</main>

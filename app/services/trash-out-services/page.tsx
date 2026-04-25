@@ -4,6 +4,9 @@ import ServicePageLayout from '@/components/ServicePageLayout';
 export const metadata: Metadata = {
   title: 'Trash-Out Services | ProClear Solutions',
   description: 'Professional trash-out and junk removal services for REO properties in Arizona. Bulk waste hauling, compliant disposal, and same-day service available.',
+  alternates: {
+    canonical: '/services/trash-out-services',
+  },
 };
 
 export default function TrashOutServicesPage() {

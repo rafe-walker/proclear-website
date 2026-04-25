@@ -4,6 +4,9 @@ import ServicePageLayout from '@/components/ServicePageLayout';
 export const metadata: Metadata = {
   title: 'Yard & Landscape Maintenance | ProClear Solutions',
   description: 'Professional yard maintenance and landscape services for vacant properties in Arizona. Mowing, trimming, weed removal, and desert landscaping cleanup.',
+  alternates: {
+    canonical: '/services/yard-maintenance',
+  },
 };
 
 export default function YardMaintenancePage() {

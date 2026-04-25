@@ -4,6 +4,9 @@ import ServicePageLayout from '@/components/ServicePageLayout';
 export const metadata: Metadata = {
   title: 'Paint & Touch-Ups | ProClear Solutions',
   description: 'Professional interior and exterior painting services for properties in Arizona. Wall patching, touch-ups, and full repaints to maximize property appeal.',
+  alternates: {
+    canonical: '/services/paint-touch-ups',
+  },
 };
 
 export default function PaintTouchUpsPage() {

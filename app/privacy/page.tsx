@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   description:
     "Privacy policy for ProClear Solutions LLC. Learn how we collect, use, and protect your information.",
   keywords: ["privacy policy", "data protection", "ProClear Solutions"],
+  alternates: {
+    canonical: '/privacy',
+  },
 };
 
 export default function PrivacyPage() {

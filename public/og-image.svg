@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2b4c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3d6b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <!-- Decorative accent line -->
+  <rect x="0" y="0" width="1200" height="6" fill="#e8622a" />
+  <!-- Shield icon placeholder -->
+  <rect x="80" y="200" width="80" height="80" rx="16" fill="#e8622a" />
+  <text x="120" y="254" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">P</text>
+  <!-- Business name -->
+  <text x="185" y="248" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="white">ProClear Solutions AZ</text>
+  <!-- Tagline -->
+  <text x="80" y="316" font-family="Arial, sans-serif" font-size="28" fill="#a0b4c8">Property Preservation You Can Count On</text>
+  <!-- Divider -->
+  <rect x="80" y="346" width="120" height="4" fill="#e8622a" />
+  <!-- Description -->
+  <text x="80" y="400" font-family="Arial, sans-serif" font-size="22" fill="#c8d8e8">Foreclosure Cleanouts &amp; Property Preservation</text>
+  <text x="80" y="434" font-family="Arial, sans-serif" font-size="22" fill="#c8d8e8">Southern Arizona &#8212; Bonded &amp; Insured</text>
+  <!-- URL -->
+  <text x="80" y="560" font-family="Arial, sans-serif" font-size="20" fill="#7a9ab8">proclearsolutionsaz.com</text>
+  <!-- Phone -->
+  <text x="1120" y="560" font-family="Arial, sans-serif" font-size="20" fill="#7a9ab8" text-anchor="end">(520) 729-2974</text>
+</svg>

@@ -302,12 +302,12 @@ export default function ServicesClient() {
                 className="text-center p-6"
               >
                 <div className="text-3xl mb-3">
-                  {idx === 0 && 'â'}
-                  {idx === 1 && 'ðï¸'}
-                  {idx === 2 && 'â¡'}
-                  {idx === 3 && 'ð¥'}
-                  {idx === 4 && 'ð°'}
-                  {idx === 5 && 'ð¸'}
+                  {idx === 0 && '✓'}
+                  {idx === 1 && '🏜️'}
+                  {idx === 2 && '⚡'}
+                  {idx === 3 && '👥'}
+                  {idx === 4 && '💰'}
+                  {idx === 5 && '📸'}
                 </div>
                 <h3 className="text-lg font-bold text-brand-navy mb-2">
                   {item.title}

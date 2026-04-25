@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   description:
     "Terms of Service for ProClear Solutions LLC. Understand our service terms, pricing, scheduling, and liability policies.",
   keywords: ["terms of service", "service agreement", "ProClear Solutions"],
+  alternates: {
+    canonical: '/terms',
+  },
 };
 
 export default function TermsPage() {
