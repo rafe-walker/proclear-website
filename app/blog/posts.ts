@@ -12,6 +12,98 @@ export interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    slug: 'vacant-property-risk-in-arizona-summer-a-property-managers-pre-inspection-checklist',
+    title: "Vacant Property Risk in Arizona Summer: A Property Manager's Pre-Inspection Checklist",
+    excerpt: "",
+    content: `<div class="blog-content">
+  <h2>The Summer Vulnerability Window</h2>
+  <p>Arizona's summer season—May through September—creates a perfect storm of environmental pressures on vacant properties. Daytime temperatures routinely exceed 110°F, intense UV radiation degrades roofing materials and exterior finishes, and the low humidity accelerates wood warping and material brittleness. Unlike winter months when vacant properties face fewer threats, summer exposes every structural weakness simultaneously. For asset managers overseeing REO portfolios across Phoenix, Tucson, and rural Arizona, the window between spring listing preparation and fall market recovery demands aggressive preventive maintenance.</p>
+  <p>Vacant properties left unattended during summer don't simply age—they deteriorate at an accelerated rate. Interior temperatures in an unoccupied, unventilated home can reach 140°F or higher, causing drywall to crack, paint to blister, and flooring adhesives to fail. Plumbing systems left dry become brittle and prone to rupture. HVAC systems sitting idle accumulate dust and corrosion. Pools and water features become stagnant breeding grounds for mosquitoes and algae. Without active monitoring and maintenance, a property that was market-ready in May can become a liability by August.</p>
+  <h2>Structural and Roofing Assessment</h2>
+  <p>Your first priority is the roof and structural envelope. Arizona's intense summer sun subjects roofing materials to thermal stress that accelerates deterioration far beyond normal wear patterns. Asphalt shingles become brittle and prone to cracking. Tar and sealant joints fail prematurely. Metal roofing expands and contracts dramatically, creating fastener stress and potential leaks.</p>
+  <p>Walk the perimeter and look for:</p>
+  <ul>
+  <li><strong>Missing, cracked, or curled shingles</strong> — even isolated damage allows water infiltration</li>
+  <li><strong>Separation at roof-to-wall seams</strong> — especially common on flat roofs or low-pitch designs</li>
+  <li><strong>Debris accumulation in gutters and downspouts</strong> — blocked drainage causes water pooling and structural rot</li>
+  <li><strong>Flashing deterioration around vents, chimneys, and skylights</strong> — these are primary leak points</li>
+  <li><strong>Evidence of previous patching or temporary repairs</strong> — indicates ongoing maintenance gaps</li>
+  </ul>
+  <p>Interior water damage is often invisible until it's catastrophic. Check attic spaces, crawlspaces, and upper-floor ceilings for water stains, mold growth, or soft spots in framing. Summer heat accelerates mold colonization in damp areas. A small roof leak in May becomes a mold remediation project by July.</p>
+  <p>Document all findings with dated photographs and GPS coordinates. GSE servicers require detailed photographic evidence of property condition, and summer inspections create a baseline for comparing fall condition reports.</p>
+  <h2>HVAC, Plumbing, and Mechanical Systems</h2>
+  <p>Vacant properties present unique challenges to mechanical systems. HVAC units running without occupancy—or sitting idle—accumulate dust, develop refrigerant leaks, and corrode internally. Plumbing systems without water flow become breeding grounds for bacteria and mineral deposits. Water heaters left unserviced can rust internally and fail catastrophically.</p>
+  <p>Priority checks include:</p>
+  <ul>
+  <li><strong>HVAC filter condition</strong> — replace before summer if clogged; dirty filters reduce efficiency and can cause compressor strain</li>
+  <li><strong>Refrigerant levels</strong> — low refrigerant indicates a leak; running a unit low damages the compressor</li>
+  <li><strong>Thermostat operation</strong> — verify the system cycles properly; a malfunctioning thermostat can cause temperature swings that damage interior finishes</li>
+  <li><strong>Water main shutoff accessibility</strong> — ensure it's clearly marked and operational; a burst pipe in an unoccupied home can cause tens of thousands in damage</li>
+  <li><strong>Drain traps and P-traps</strong> — ensure all drains have standing water to prevent sewer gas infiltration and pest entry</li>
+  <li><strong>Water heater condition</strong> — check for rust, leaks, or corrosion; drain sediment if the unit has been idle</li>
+  </ul>
+  <p>For properties with pools or spas, verify that circulation pumps are running and chemical balances are maintained. A neglected pool becomes a mosquito vector and creates liability exposure.</p>
+  <h2>Exterior and Landscape Vulnerability</h2>
+  <p>Arizona's summer heat kills landscaping rapidly without irrigation. Dead vegetation creates fire hazards, attracts pests, and signals vacancy to potential vandals. Dry brush and dead trees become tinder during monsoon season when lightning strikes ignite fires.</p>
+  <p>Conduct a detailed exterior walk-through:</p>
+  <ul>
+  <li><strong>Irrigation system operation</strong> — verify timers are set correctly and all zones are functioning; broken sprinkler heads should be repaired immediately</li>
+  <li><strong>Dead or dying vegetation</strong> — remove dead trees, prune dead branches, and clear dead landscaping; this is both a fire hazard and a liability issue</li>
+  <li><strong>Pooling water or drainage issues</strong> — ensure grading directs water away from the foundation; standing water attracts mosquitoes and promotes foundation erosion</li>
+  <li><strong>Fence and gate condition</strong> — check for gaps, broken boards, or non-functioning locks; a compromised perimeter invites trespassing and vandalism</li>
+  <li><strong>Driveway and walkway cracks</strong> — document existing damage; summer heat expands cracks and creates trip hazards</li>
+  <li><strong>Exterior paint and siding</strong> — UV damage accelerates in summer; note blistering, peeling, or color fading</li>
+  </ul>
+  <p>Overgrown landscaping also obscures structural damage and provides cover for squatters or criminal activity. A property that appears well-maintained is far less likely to attract vandalism or unauthorized occupancy.</p>
+  <h2>Interior Environmental Monitoring</h2>
+  <p>Interior conditions in a vacant Arizona home deteriorate rapidly during summer. Without air conditioning, interior temperatures exceed 130°F, accelerating material degradation. Humidity fluctuations cause wood flooring to cup and warp. Drywall absorbs moisture and develops mold.</p>
+  <p>Priority interior checks:</p>
+  <ul>
+  <li><strong>Door and window seals</strong> — verify weather stripping is intact; gaps allow heat infiltration and pest entry</li>
+  <li><strong>Evidence of pest activity</strong> — look for droppings, gnaw marks, or spider webs; summer heat accelerates pest breeding</li>
+  <li><strong>Interior paint condition</strong> — note blistering, peeling, or discoloration; heat damage to paint finishes is difficult to remediate</li>
+  <li><strong>Flooring condition</strong> — hardwood floors cup and gap in extreme heat; tile grout cracks; carpet develops odor and mold</li>
+  <li><strong>Drywall integrity</strong> — check for cracks, soft spots, or water stains; summer heat can cause drywall to separate from framing</li>
+  <li><strong>Closets and enclosed spaces</strong> — these areas trap moisture and develop mold faster than open rooms</li>
+  <li><strong>Odor assessment</strong> — stagnant air develops musty smells that are difficult to eliminate; note any unusual odors for remediation planning</li>
+  </ul>
+  <p>Interior temperature control is critical. If the property has a functioning HVAC system, set the thermostat to 78–82°F during the day to prevent extreme heat damage while minimizing utility costs. Many asset managers reduce interior temperatures to 65°F during peak summer hours (1–5 PM) when exterior heat is most intense.</p>
+  <h2>Security and Vandalism Prevention</h2>
+  <p>Vacant properties are targets for vandalism, copper theft, and squatting. Summer vacancy is especially high-risk because extended daylight hours provide longer windows for criminal activity, and school breaks increase youth activity in neighborhoods.</p>
+  <p>Security assessment points:</p>
+  <ul>
+  <li><strong>Door and window locks</strong> — verify all entry points are secure; replace missing deadbolts immediately</li>
+  <li><strong>Evidence of attempted entry</strong> — look for pry marks, broken hinges, or damaged frames</li>
+  <li><strong>Interior valuables</strong> — confirm all appliances, fixtures, and materials are secured; copper piping, HVAC components, and electrical wiring are theft targets</li>
+  <li><strong>Signage and property markings</strong> — ensure "No Trespassing" signs are visible; clearly marked REO properties deter casual trespassing</li>
+  <li><strong>Perimeter lighting</strong> — if the property has exterior lighting, verify it functions; dark properties attract nighttime activity</li>
+  <li><strong>Neighboring property awareness</strong> — note if neighbors are monitoring the property; engaged neighbors are the best security asset</li>
+  </ul>
+  <p>Consider installing motion-sensor lighting, security cameras, or alarm system signage. For high-value properties or those in high-crime areas, monthly security patrols provide additional deterrence.</p>
+  <h2>Documentation and GSE Compliance</h2>
+  <p>Asset managers must maintain detailed records of all property inspections for GSE servicers. Fannie Mae and Freddie Mac require photographic evidence of property condition, maintenance activities, and any damage or deficiencies discovered during inspections.</p>
+  <p>Maintain a property file that includes:</p>
+  <ul>
+  <li><strong>Inspection photos</strong> — dated, timestamped images of all major systems and exterior conditions</li>
+  <li><strong>Maintenance records</strong> — documentation of all work performed, including HVAC service, plumbing repairs, or landscape maintenance</li>
+  <li><strong>Utility status</strong> — record which utilities are active and which are disconnected; note any unusual consumption patterns</li>
+  <li><strong>Repair estimates</strong> — if damage is discovered, obtain contractor quotes for GSE approval</li>
+  <li><strong>Inspection checklists</strong> — use a standardized form to ensure consistency across multiple properties</li>
+  </ul>
+  <p>Summer inspections should be conducted at least monthly, with additional inspections before and after monsoon season (June 15–September 30). Document the inspection date, inspector name, weather conditions, and any findings or recommendations.</p>
+  <h2>Action Steps for Summer Property Protection</h2>
+  <p>Implement a proactive maintenance schedule that prioritizes the highest-risk systems first. Begin with roof and structural envelope assessment, then move to HVAC and plumbing verification. Schedule landscape maintenance to remove dead vegetation and ensure irrigation functions properly. Finally, conduct security audits to prevent vandalism and theft.</p>
+  <p>For properties with existing damage, obtain contractor estimates and submit them to GSE servicers for approval before work begins. Preventive maintenance is far less costly than emergency repairs, and documented maintenance extends property value and marketability.</p>
+  <p>ProClear Solutions AZ provides comprehensive vacant property inspections and maintenance services throughout Arizona. From Phoenix metropolitan areas to rural properties in northern Arizona, our team conducts detailed summer vulnerability assessments, coordinates preventive maintenance, and maintains GSE-compliant documentation for your entire portfolio. We're bonded, insured, and experienced in every aspect of summer property protection—from roof inspections to HVAC service to landscape remediation.</p>
+  <p>Contact ProClear Solutions AZ for a free summer readiness assessment. Call (520) 729-2974 or email contact@proclearsolutionsaz.com today to schedule your pre-summer property inspection. Let's protect your assets before the heat arrives.</p>
+  </div>`,
+    date: '2026-05-01',
+    readTime: '7 min read',
+    category: 'Property Preservation',
+    author: 'ProClear Solutions',
+    featuredImage: '/blog/vacant-property-risk-in-arizona-summer-a-property-managers-pre-inspection-checklist.webp'
+  },
+  {
     slug: 'vacant-property-risk-in-arizona-summer-a-property-manager-s-pre-inspection-checklist',
     title: "Vacant Property Risk in Arizona Summer: A Property Manager's Pre-Inspection Checklist",
     excerpt: "",
